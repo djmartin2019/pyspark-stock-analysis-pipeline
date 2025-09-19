@@ -1,0 +1,35 @@
+/* Style the dropdown container */
+#ticker-dropdown .Select-control {
+    background-color: #121826 !important;
+    border: 1px solid #00E0FF !important;
+    border-radius: 8px !important;
+    color: #00E0FF !important;
+    font-family: Inter, sans-serif;
+}
+
+/* Style the selected value (input text) */
+#ticker-dropdown .Select-value-label {
+    color: #00E0FF !important;
+}
+
+/* Style the placeholder text */
+#ticker-dropdown .Select-placeholder {
+    color: #888888 !important;
+}
+
+/* Style the dropdown menu */
+#ticker-dropdown .Select-menu-outer {
+    background-color: #121826 !important;
+    border: 1px solid #00E0FF !important;
+}
+
+/* Style dropdown options */
+#ticker-dropdown .Select-option {
+    background-color: #121826 !important;
+    color: #EAEAEA !important;
+}
+#ticker-dropdown .Select-option:hover {
+    background-color: #00E0FF !important;
+    color: #0a0f1f !important;
+}
+

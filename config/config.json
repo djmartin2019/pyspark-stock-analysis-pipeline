@@ -1,0 +1,8 @@
+{
+  "paths": {
+    "bronze": "data/bronze/stock_prices/",
+    "silver": "data/silver/stock_prices/",
+    "gold": "data/gold/stock_prices/"
+  },
+  "tickers": ["AAPL", "GOOG"]
+}

@@ -1,0 +1,8 @@
+.dash-graph {
+    background-color: #121826 !important;
+    border: 1px solid #00E0FF !important;
+    border-radius: 12px !important;
+    box-shadow: 0 0 15px rgba(0, 224, 255, 0.4);
+    padding: 10px;
+}
+

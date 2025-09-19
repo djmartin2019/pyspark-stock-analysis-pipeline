@@ -1,0 +1,32 @@
+# ===============================
+# Core ETL & Big Data
+# ===============================
+pyspark==3.5.1          # Apache Spark for distributed data processing
+delta-spark==3.2.0      # Delta Lake format support (ACID transactions, time travel)
+
+# ===============================
+# Data Ingestion
+# ===============================
+yfinance==0.2.41        # Yahoo Finance API wrapper (for pulling stock data)
+requests==2.31.0        # HTTP library used under the hood by yfinance
+python-dotenv==1.0.0    # Environment variable management
+
+# ===============================
+# Data Analysis & File Formats
+# ===============================
+pandas==2.2.2           # Data manipulation, Dash reads Gold layer with pandas
+pyarrow==17.0.0         # Parquet I/O (preferred engine for Spark and pandas)
+fastparquet==2024.5.0   # Alternate Parquet engine (optional but good backup)
+
+# ===============================
+# Visualization & Dashboard
+# ===============================
+plotly==5.23.0          # Core plotting library (used by Dash for charts)
+dash==2.17.0            # Web framework for building dashboards in Python
+
+# ===============================
+# Dev, Testing & Prototyping
+# ===============================
+pytest==8.3.3           # Unit testing (for ETL transforms)
+jupyterlab==4.2.5       # Interactive prototyping & notebooks
+

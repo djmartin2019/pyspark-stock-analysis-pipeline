@@ -1,0 +1,186 @@
+/* Custom styling for DatePickerRange component - clean inline layout */
+.DateRangePickerInput {
+  background-color: #1a1a1a !important;
+  border: 1px solid #00e0ff !important;
+  border-radius: 8px !important;
+  color: #00e0ff !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 8px 12px !important;
+  font-size: 14px !important;
+  width: 100% !important;
+  height: 40px !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.DateInput {
+  background-color: transparent !important;
+  border: none !important;
+  color: #00e0ff !important;
+  font-size: 14px !important;
+  padding: 0 !important;
+  width: auto !important;
+  flex: 1 !important;
+  height: 100% !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.DateInput_input {
+  background-color: transparent !important;
+  color: #00e0ff !important;
+  font-size: 14px !important;
+  border: none !important;
+  padding: 0 !important;
+  text-align: center !important;
+  width: 100% !important;
+  min-width: 100px !important;
+  height: 100% !important;
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+
+.DateRangePickerInput__display-text {
+  color: #00e0ff !important;
+  font-size: 14px !important;
+}
+
+.DateRangePickerInput__display-text--has-input {
+  color: #00e0ff !important;
+}
+
+.DateRangePickerInput__display-text--focused {
+  color: #00e0ff !important;
+}
+
+.DateRangePickerInput__arrow {
+  color: #00e0ff !important;
+}
+
+.DateRangePickerInput__clear-dates {
+  color: #8b949e !important;
+}
+
+.DateRangePickerInput__clear-dates:hover {
+  color: #00e0ff !important;
+}
+
+/* Calendar styling */
+.CalendarDay {
+  background-color: #0d1117 !important;
+  color: #eaeaea !important;
+  border: 1px solid transparent !important;
+}
+
+.CalendarDay:hover {
+  background-color: #21262d !important;
+  color: #eaeaea !important;
+}
+
+.CalendarDay--selected {
+  background-color: #00e0ff !important;
+  color: #0a0f1f !important;
+  border: 1px solid #00e0ff !important;
+}
+
+.CalendarDay--selected-start {
+  background-color: #00e0ff !important;
+  color: #0a0f1f !important;
+  border: 1px solid #00e0ff !important;
+}
+
+.CalendarDay--selected-end {
+  background-color: #00e0ff !important;
+  color: #0a0f1f !important;
+  border: 1px solid #00e0ff !important;
+}
+
+.CalendarDay--selected-span {
+  background-color: rgba(0, 224, 255, 0.2) !important;
+  color: #eaeaea !important;
+  border: 1px solid #30363d !important;
+}
+
+.CalendarDay--hovered-span {
+  background-color: rgba(0, 224, 255, 0.1) !important;
+  color: #eaeaea !important;
+}
+
+.CalendarDay--today {
+  background-color: #21262d !important;
+  color: #eaeaea !important;
+  border: 1px solid #30363d !important;
+}
+
+.CalendarDay--outside {
+  background-color: transparent !important;
+  color: #8b949e !important;
+}
+
+.CalendarMonth {
+  background-color: #0d1117 !important;
+  color: #eaeaea !important;
+}
+
+.CalendarMonthGrid {
+  background-color: #0d1117 !important;
+}
+
+.CalendarMonthGrid__month {
+  background-color: #0d1117 !important;
+  color: #eaeaea !important;
+}
+
+.DayPicker {
+  background-color: #0d1117 !important;
+  color: #eaeaea !important;
+}
+
+.DayPicker_weekHeader {
+  background-color: #0d1117 !important;
+  color: #eaeaea !important;
+}
+
+.DayPicker_weekHeader_li {
+  color: #8b949e !important;
+}
+
+.DayPickerNavigation {
+  background-color: #0d1117 !important;
+}
+
+.DayPickerNavigation_button {
+  background-color: #21262d !important;
+  color: #eaeaea !important;
+  border: 1px solid #30363d !important;
+}
+
+.DayPickerNavigation_button:hover {
+  background-color: #30363d !important;
+  color: #00e0ff !important;
+}
+
+.DayPicker__horizontal {
+  background-color: #0d1117 !important;
+  border: 1px solid #21262d !important;
+  border-radius: 8px !important;
+}
+
+.DateRangePicker {
+  background-color: #0d1117 !important;
+}
+
+.DateRangePicker__picker {
+  background-color: #0d1117 !important;
+  border: 1px solid #21262d !important;
+  border-radius: 8px !important;
+}
+
+.DateRangePicker__picker--direction-left {
+  background-color: #0d1117 !important;
+}
+
+.DateRangePicker__picker--direction-right {
+  background-color: #0d1117 !important;
+}
