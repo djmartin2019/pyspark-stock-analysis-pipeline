@@ -1,0 +1,58 @@
+version: "3.8"
+
+services:
+  alpha-vantage-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: alpha-vantage-dashboard
+    ports:
+      - "8050:8050"
+    environment:
+      - ALPHA_VANTAGE_API_KEY=${ALPHA_VANTAGE_API_KEY}
+      - DASH_DEBUG=False
+      - DASH_HOST=0.0.0.0
+      - DASH_PORT=8050
+    volumes:
+      # Mount data directory for persistence
+      - ./data:/app/data
+      # Mount config for easy updates
+      - ./config:/app/config
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8050/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # Development service (optional)
+  alpha-vantage-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    container_name: alpha-vantage-dashboard-dev
+    ports:
+      - "8888:8888"
+    environment:
+      - ALPHA_VANTAGE_API_KEY=${ALPHA_VANTAGE_API_KEY}
+    volumes:
+      - .:/app
+      - ./data:/app/data
+    profiles:
+      - dev
+    command:
+      [
+        "jupyter",
+        "lab",
+        "--ip=0.0.0.0",
+        "--port=8888",
+        "--no-browser",
+        "--allow-root",
+      ]
+
+networks:
+  default:
+    name: alpha-vantage-network

@@ -1,5 +1,13 @@
 # 📊 Alpha Vantage Stock Analysis Dashboard
 
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
+[![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5.1-orange.svg)](https://spark.apache.org)
+[![Delta Lake](https://img.shields.io/badge/Delta%20Lake-3.2.0-green.svg)](https://delta.io)
+[![Dash](https://img.shields.io/badge/Dash-2.17.0-purple.svg)](https://dash.plotly.com)
+[![Plotly](https://img.shields.io/badge/Plotly-5.23.0-red.svg)](https://plotly.com)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Alpha Vantage](https://img.shields.io/badge/Data%20Source-Alpha%20Vantage-cyan.svg)](https://www.alphavantage.co)
+
 A comprehensive stock market analysis platform built with Apache Spark, Delta Lake, and Dash. This project implements a modern data engineering pipeline following the medallion architecture pattern to ingest, process, and visualize stock market data from Alpha Vantage API.
 
 ## 🏗️ Architecture Overview
@@ -71,7 +79,7 @@ alpha-vantage-dashboard/
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/djmartin2019/pyspark-stock-analysis-pipeline.git
 cd alpha-vantage-dashboard
 ```
 
