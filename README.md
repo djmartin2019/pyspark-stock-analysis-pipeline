@@ -1,4 +1,4 @@
-# 📊 Alpha Vantage Stock Analysis Dashboard
+# 📊 Stock Analysis Dashboard
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5.1-orange.svg)](https://spark.apache.org)
